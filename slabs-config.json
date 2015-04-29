@@ -1,0 +1,16 @@
+{
+  "name": "Date Upload",
+  "description": "A tool for uploading files.",
+  "type": "source",
+  "connectionsIn": 1,
+  "connectionsOut": -1,
+  "customIcon": "fa-file-text-o",
+  "hasSettings": true,
+  "defaultSettings": {
+
+  },
+  "source": {
+    "label": "Core Slab",
+    "url": "http://slabs.io/"
+  }
+}
