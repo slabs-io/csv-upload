@@ -1,7 +1,7 @@
-page-scraper
+data-upload
 =============
 
-##A page scraping module for use with slabs.io.
+##A data upload module for use with slabs.io.
 
 Before use run :
 ```
