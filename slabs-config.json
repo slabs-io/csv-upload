@@ -1,5 +1,5 @@
 {
-  "name": "Data Upload",
+  "name": "File Upload",
   "description": "A tool for uploading files.",
   "type": "source",
   "connectionsIn": 1,
