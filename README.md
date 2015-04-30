@@ -1,7 +1,7 @@
-file-upload
+csv-upload
 =============
 
-##A file upload module for use with slabs.io.
+##A csv file upload module for use with slabs.io.
 
 Before use run :
 ```

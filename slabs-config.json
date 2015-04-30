@@ -1,6 +1,6 @@
 {
-  "name": "File Upload",
-  "description": "A tool for uploading files.",
+  "name": "CSV Upload",
+  "description": "A tool for uploading csv files.",
   "type": "source",
   "connectionsIn": 1,
   "connectionsOut": -1,
