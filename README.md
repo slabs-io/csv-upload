@@ -1,7 +1,7 @@
-data-upload
+file-upload
 =============
 
-##A data upload module for use with slabs.io.
+##A file upload module for use with slabs.io.
 
 Before use run :
 ```
