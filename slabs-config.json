@@ -7,7 +7,7 @@
   "customIcon": "fa-file-text-o",
   "hasSettings": true,
   "defaultSettings": {
-
+    "settingId":""
   },
   "source": {
     "label": "Core Slab",
