@@ -4,23 +4,6 @@ var mongoose = require('mongoose'),
     pretty = require('js-object-pretty-print').pretty;
 
 
-exports.get = function(req, res){
-
-    var id = req.query.settingId;
-
-    SlabConfigSetting.findById(id, function(err, obj){
-
-        if(obj){
-            res.json(obj.toObject());
-        }else{
-            res.json({});
-        }
-
-
-    });
-
-};
-
 exports.post = function(req, res){
 
     var csvData;
@@ -42,15 +25,12 @@ exports.post = function(req, res){
         result = parsed.data;
     }
 
-    // pretty up that shit.
-    var prettyData = pretty(result, 1, 'HTML');
 
     var saveObject = {
         network_id:networkId,
         slab_guid:slabConfigId,
         setting:{
-            data:result,
-            pretty:prettyData
+            data:result
         }
     };
 
@@ -67,8 +47,7 @@ exports.post = function(req, res){
 
         res.json({
             settingId:doc._id,
-            data:result,
-            pretty:prettyData
+            data:result
         });
 
     });
